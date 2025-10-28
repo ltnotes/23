@@ -1,0 +1,20 @@
+Basic Hive Commands
+1. Create: This will create the new database in the Hive.
+create database database_name;
+2. Show: show command will show all the databases residing in the Hive.
+show databases;
+3. Use: The command to use the database.
+use database_name;
+4. Drop: The drop will remove a table from Hive
+Drop table_name;
+5. Create table: This command creates the table.
+create table table_name (column names and types);
+6. Alter: Alter command will help you rename the table or table columns.
+alter table table_name rename to new_table_name;
+
+For renaming column name, replace table name with column name.
+7. Describe: Describe command will help you with the information about the schema of the
+table.
+describe table name;
+8. LOAD, INSERT: The Load operation is used to move the data into corresponding Hive table.
+LOAD data inpath into table [tablename];
